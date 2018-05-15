@@ -148,7 +148,7 @@ void _enable_mob_interrupt(uint8_t mob)
 
 // ----------------------------------------------------------------------------
 
-bool at90can_init(uint8_t bitrate)
+bool at90can_init(can_bitrate_t bitrate)
 {
 	if (bitrate >= 8)
 		return false;
